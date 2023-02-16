@@ -1,0 +1,7 @@
+<h1 *ngIf="loading">Loading Data</h1>
+
+<h1 *ngIf="!loading">As you can see our greeting is {{ greeting }}</h1>
+
+<h2 *ngIf="!loading">And our departure message is still {{ departure }}</h2>
+
+<router-outlet></router-outlet>
