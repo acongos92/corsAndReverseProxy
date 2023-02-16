@@ -13,7 +13,7 @@ The repository is supported by two simple services HelloService and GoodbyeServi
 
 ## Run Commands 
 
-To run the example server associated with corsSOlutionWithProxy use 
+To run the example server associated with corsSolutionWithProxy use 
 
 ```
 ng serve --proxy-config=src/proxy.conf.json -c=dev
